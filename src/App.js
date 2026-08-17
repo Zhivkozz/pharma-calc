@@ -3,6 +3,7 @@ import Header from './components/Navigation/Header';
 import HomePage from './pages/HomePage';
 import DissolutionPage from './pages/DissolutionPage';
 import CarrHausnerPage from './pages/CarrHausnerPage';
+import PercentagePage from './pages/PercentagePage';
 import ComingSoonPage from './pages/ComingSoonPage';
 import ContributorsPage from './pages/ContributorsPage';
 import ContactPage from './pages/ContactPage';
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/dissolution" element={<DissolutionPage />} />
           <Route path="/carr-hausner" element={<CarrHausnerPage />} />
+          <Route path="/percentage" element={<PercentagePage />} />
           <Route path="/contributors" element={<ContributorsPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/module/:moduleId" element={<ComingSoonPage />} />

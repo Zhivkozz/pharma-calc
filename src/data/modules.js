@@ -93,17 +93,17 @@ export const modules = {
 
   percentage: {
     id: 'percentage',
-    name: 'Percentage Converter',
-    description: '%w/v, %w/w, %v/v conversions and calculations',
+    name: '3-way Percent Calculator',
+    description: 'Quick and easy results – Enter the known values, click Calculate, and instantly get the missing value.',
     icon: '%',
-    phase: 3,
-    status: 'coming',
-    path: '/module/percentage',
+    phase: 1,
+    status: 'live',
+    path: '/percentage',
     category: 'Solution & Dilution',
     features: [
-      '%w/v ↔ %w/w conversions',
-      '%v/v calculations',
-      'Density-corrected conversions',
+      'Find the percentage of a number',
+      'Find what percentage one number is of another',
+      'Find the Whole'
     ],
   },
 
