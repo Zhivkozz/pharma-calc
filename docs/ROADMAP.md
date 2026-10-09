@@ -114,12 +114,12 @@ Status: Not started, In progress, In review, Done. Rows for later phases are add
 | Step | Status | PR | Date done | Notes |
 | --- | --- | --- | --- | --- |
 | Map the existing code | Done | None | 2026-10-09 | Findings are in the starting-point table above. |
-| Write this roadmap | In review | This PR | | Moved from a Claude Doc into the repo. |
-| 0.1 Fix the install | In review | This PR | | Lock file regenerated, 4 unused libraries removed. |
+| Write this roadmap | Done | #1 | 2026-10-09 | Moved from a Claude Doc into the repo. |
+| 0.1 Fix the install | Done | #1 | 2026-10-09 | Lock file regenerated, 4 unused libraries removed. |
 | 0.2 Move to Vite and Vitest | Not started | | | |
 | 0.3 Fix the existing test | Not started | | | |
 | 0.4 Add CI | Not started | | | |
-| 0.5 Deploy a preview | Not started | | | Hosting choice open. |
+| 0.5 Deploy a preview | In review | This PR | | GitHub Pages via Actions on every push to main. Router uses PUBLIC_URL as basename; 404.html fallback serves deep links. |
 | 0.6 Write the README | Not started | | | |
 | 0.7 Set the calculator pattern | Not started | | | |
 | 1.1 Make the module cards honest | Not started | | | |
