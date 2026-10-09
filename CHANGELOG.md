@@ -5,6 +5,7 @@ User-facing changes, newest first. The plan behind them is in [docs/ROADMAP.md](
 ## Unreleased
 
 ### Added
+- Automatic deploy to GitHub Pages on every push to `main`.
 - Development roadmap and step log in `docs/ROADMAP.md`.
 
 ### Fixed
